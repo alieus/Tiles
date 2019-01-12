@@ -1,5 +1,4 @@
 import java.awt.*;
-
 /**
 * A class that draws multiple tile pattens, with and without mortar
 *
@@ -12,7 +11,7 @@ public class Tiles{
    //Height of window 
    private static final int HEIGHT = 150;
     
-   /**
+  /**
    * A helper method to the draw rectangles
    * @param g The Graphics component
    * @param x The x coordinate of the upper left corner
@@ -32,7 +31,7 @@ public class Tiles{
       g.drawRect(x, y, width, height);
    }
    
-   /**
+  /**
    * This method draws the BasketWeave tile.  
    * it makes use of two interwinding tiles
    *
@@ -90,7 +89,7 @@ public class Tiles{
          drawRect(drawingSurface, x + mortar * 5 + longSide + shortSide, y + mortar * 3 + longSide, shortSide, longSide, honey);
       }
    }
-   /**
+  /**
    * This method draws the Mediterranean 1 tile.  
    * it doesnt have a version with mortar
    */
@@ -159,7 +158,7 @@ public class Tiles{
    
    }
    
-   /**
+  /**
    * This method draws the Mediterranean 2 tile.  
    * it doesnt have a version with mortar
    */
@@ -230,7 +229,7 @@ public class Tiles{
    }
    }
    
-   /**
+  /**
    * This method draws the OpenWeave tile.  
    *
    * @param mortarWidth The width of the mortar
@@ -291,7 +290,7 @@ public class Tiles{
 
    }
    }
-   /**
+  /**
    * This method draws the Pythagorean tile.  
    *
    * @param mortarWidth The width of the mortar
@@ -356,7 +355,7 @@ public class Tiles{
       }
    }
    
-   /**
+  /**
    * This method draws the Brick tile.  
    * it only has one version with mortar
    *
@@ -404,7 +403,7 @@ public class Tiles{
    }
    }
    
-   /**
+  /**
    * The application method that runs the program
    *
    * @param args The command-line arguments
