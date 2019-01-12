@@ -4,9 +4,7 @@ import java.awt.*;
 * A class that draws multiple tile pattens, with and without mortar
 *
 * @author Alieu Sanneh
-* @version PA11: Tiling
-*
-* level: Challenge
+* @version Tiling
 */
 public class Tiles{
    //Width of the window 
